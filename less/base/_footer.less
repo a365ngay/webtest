@@ -1,0 +1,102 @@
+.footer {
+    background-color: @bg-header;
+    margin-top: -2px;
+
+    &-top {
+        text-align: center;
+        padding-top: 100px;
+
+        .footer-summary {
+            line-height: 24px;
+            font-size: 14px;
+            font-weight: 400;
+            color: #777777;
+            padding: 26px 0px;
+        }
+
+        .footer-icon-social {
+            .footer-icon-inner {
+                display: flex;
+                flex-wrap: wrap;
+                margin: 0 -15px;
+                justify-content: center;
+
+                .icon-social {
+                    padding: 14px 21.4px;
+                    font-size: 18px;
+
+                    &:first-child {
+                        padding-left: 28px;
+                        padding-right: 28px;
+                    }
+
+                    a {
+                        color: #777777;
+                    }
+                }
+            }
+        }
+    }
+
+    &-middle {
+        margin-top: 111px;
+
+        .footer-middle-item {
+            width: 25%;
+            padding: 0 15px;
+
+            .footer-item-title {
+                color: @text-white-color;
+                font-family: 'Poppins Bold';
+                font-weight: 700;
+                font-size: 18px;
+                text-transform: uppercase;
+            }
+
+            .footer-item-content {
+                padding-top: 25px;
+
+                .footer-content-item {
+                    display: flex;
+                    padding-top: 15px;
+
+                    &:first-child {
+                        padding-top: 0px;
+                    }
+
+                    .footer-item-summary {
+                        line-height: 24px;
+                        font-size: 14px;
+                        padding-left: 11px;
+                    }
+                }
+
+                .footer-item-info {
+                    line-height: 24px;
+                    font-size: 14px;
+                    padding-top: 16px;
+                    letter-spacing: 0.01em;
+
+                    &:first-child {
+                        padding-top: 0;
+                    }
+                }
+            }
+
+            a {
+                color: #777777;
+            }
+        }
+    }
+
+    &-bottom {
+        margin-top: 45px;
+        min-height: 50px;
+        line-height: 50px;
+        background-color: #111111;
+        text-align: center;
+        color: #777777;
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
